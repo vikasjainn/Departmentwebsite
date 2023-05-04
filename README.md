@@ -1,1 +1,1 @@
-# Department-Website of CSIT
+Website of CSIT Department
