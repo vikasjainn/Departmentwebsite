@@ -1,1 +1,1 @@
-Website of CSIT Department by Vikas
+Website of CSIT Department
