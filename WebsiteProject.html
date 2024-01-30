@@ -35,9 +35,13 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color:rgb(119, 100, 241);
+    background-color:rgba(120, 119, 131, 0.459);
     color: #fff;
     padding: 100px 25px;
+    background-image: url('https://www.selectyouruniversity.com/assets/img/Acropolis%20Institute%20of%20Management%20Studies%20and%20Research%20-%20[AIMSR],%20Indore.png');
+    background-size: cover; /* Adjust according to your needs */
+    background-position: center; /* Adjust according to your needs */
+    background-repeat: no-repeat; /* Adjust according to your needs */
     /* vikas Jain  */
 
     font-family: Montserrat, sans-serif;
@@ -70,7 +74,7 @@
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: rgb(119, 100, 241);
+    color: rgb(83, 79, 110);
   }
   .carousel-indicators li {
     /* vikas Jain  */
@@ -93,7 +97,7 @@
     font-style: normal;
   }
   .panel {
-    border: 1px solid rgb(119, 100, 241); 
+    border: 1px solid rgb(114, 113, 122); 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
     /* vikas Jain  */
@@ -220,49 +224,163 @@
 
     }
   }
+  /* Container styling */
+  .partners-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #f6f6f6;
+        }
+
+        /* Logo styling */
+        .partner-logo {
+            width: 200px; /* Set your desired width */
+            height: auto;
+            margin: 10px;
+            max-width: 100%; /* Ensure responsiveness */
+            max-height: 100px; /* Set your desired height */
+        }
+        
+        .contact-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-info {
+            margin-bottom: 15px;
+        }
+
+        .contact-label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .contact-text {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                width: 80%;
+            }
+        }
+
+        #editorial-board-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+
+        .editor-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .editor {
+            width: 200px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .editor img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+        .editor h3 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .editor p {
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        #explore-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        #explore-button:hover {
+            background-color: #0056b3;
+        }
+
+        
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <!-- vikas Jain  -->
-
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#" >AITR</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">INFRASTRUCTURE</a></li>
-        <li><a href="#portfolio">PLACEMENT</a></li>
-        <!-- vikas Jain  -->
-
-        <li><a href="#pricing">CAREERS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- vikas Jain  -->
-
-</nav>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <!-- Replace "AITR" with your logo image source -->
+                    <img src="https://aitr.ac.in/wp-content/uploads/2023/03/White-Logos-for-Acropolis.png" alt="Logo" style="width: 150px; height: auto;">
+                    <!-- Adjust the width value to your preferred fixed dimension -->
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">INFRASTRUCTURE</a></li>
+                    <li><a href="#portfolio">PLACEMENT</a></li>
+                    <li><a href="#pricing">CAREERS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
 
 <div class="jumbotron text-center">
-    <p style="font-size:300%">Computer Science And Information Technology</p>
+    <p style="font-size:300%">Recent Advancements and Modernization in Computer Science and Research 2024(RAM-CSR 2024)</p>
 
   <p>"Making great things possible"</p> 
   <form>
-    <div class="input-group">
+    <!-- <div class="input-group">
       <input type="email" class="form-control" size="50" placeholder="To get latest updates of CSIT department (Website designed by Vikas Jain, CSIT-3) " required>
       <div class="input-group-btn">
         <button type="button" class="btn btn-danger">Subscribe</button>
       </div>
-      <!-- vikas Jain  -->
+      vikas Jain  -->
 
     </div>
   </form>
@@ -273,10 +391,9 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About  the  Department</h2><br>
-      <p>Website designed by Vikas Jain, CSIT-3</p>
-      <h4>The Department of Computer Science & Information Technology Engineering was established to meet the demand for well-qualified computer professionals.The program focuses on theoretical computer science as well as software and application development. Department has well qualified and vibrant faculty dedicated for the betterment of the students. Most of the students passed out are well placed or have opted for higher studies. The department has provided a well-equipped computer lab with latest computer software. The Laboratories are installed with broad-band internet facility.The department ensures that program objectives are constantly met and learning outcomes are monitored through periodical test and assignment.</h4><br>
-      <p>The computer science department consists of well qualified engineering professionals with extensive teaching experience. Faculty members hold postgraduate and undergraduate degrees from renowned institutions with specializations in different subjects.</p>
+      <h2>About RAM-CSRC </h2><br>
+      <!-- <p>Website designed by Vikas Jain, CSIT-3</p> -->
+      <h4>Welcome to the Recent Advancements and Modernization in Computer Science and Research (RAM-CSR)! Our conference serves as a dynamic platform at the forefront of cutting-edge developments in computer science and research. With a focus on the latest technological advancements and modernization trends, RAM-CSR brings together researchers, professionals, and enthusiasts from around the world. Through engaging keynote sessions, in-depth technical presentations, and collaborative discussions, we aim to explore the transformative impact of modernization on computer science. Join us in this exciting journey of knowledge exchange, where participants can delve into recent breakthroughs, share innovative ideas, and contribute to the ever-evolving landscape of technology. RAM-CSR is your gateway to staying informed about the latest trends, fostering connections, and being a part of the future of computer science and research.</p>
       <br><button class="btn btn-default btn-lg">More About Us</button>
     </div>
     <div class="col-sm-4">
@@ -298,160 +415,198 @@
       <!-- vikas Jain  -->
 
       <h2>Our Values</h2><br>
-      <p>Website designed by Vikas Jain, CSIT-3</p>
+      <!-- <p>Website designed by Vikas Jain, CSIT-3</p> -->
 
-      <h4><strong>MISSION:</strong> The computer-science-centered curriculum offers a cross-disciplinary approach to intelligent informatics and human informatics. Students are encouraged to take classes in other departments in order to acquire the broad understanding needed to interact cooperatively with other fields. After first becoming thoroughly acquainted with information’s mathematical aspects, students deepen their understanding of hardware, software, networks, databases and other elements through experimentation and practical work in small groups. Through their senior year dissertation, students acquire the basic competencies required to work in advanced research, gaining comprehensive training that prepares them in knowledge use, critical and logical thinking, problem exploration, problem solving and communication.</h4><br>
-      <p><strong>VISION:</strong> As you can see in the list of faculty profiles and labs, department faculty have a wide variety of experience, both in terms of research areas and in terms of basic research and application, which they are able to share with students through work in small groups. A full roster of instructors encourage students to challenge themselves in new fields, helping them to discover their own research interests. Furthermore, faculty members provide guidance backed by a high level of research, enabling students to produce a considerable amount of research findings prior to entering graduate school; many students even present their findings formally.</p>
+      <h4><strong>MISSION:</strong> In pursuit of excellence and innovation, the mission of the Recent Advancements and Modernization in Computer Science and Research Conference (RAM-CSR) is to advance the frontiers of knowledge in the ever-evolving realm of computer science. Our mission is twofold: to showcase and celebrate recent advancements that have the potential to reshape the field and to foster a collaborative environment where researchers, professionals, and enthusiasts can exchange ideas, insights, and best practices. RAM-CSR is committed to providing a platform that not only highlights the latest breakthroughs in computer science but also addresses the crucial role of modernization in shaping the future of technology. Through an inclusive and forward-thinking approach, our mission is to empower individuals to navigate the complexities of modern computing, drive innovation, and contribute to the ongoing progress of computer science and research. Join us as we embark on this mission to propel the frontiers of knowledge and transform the landscape of computer science.</h4><br>
+      <p><strong>VISION:</strong> Our vision at the Recent Advancements and Modernization in Computer Science and Research Conference (RAM-CSR) is to embody an all-encompassing perspective, transcending traditional boundaries within the field. We aspire to create a platform where exploration and innovation are limitless, covering the full scope of Computer Science. Our commitment is to foster a global community that embraces diversity, anticipates future advancements, and contributes to the holistic evolution of the discipline. With a future-centric approach, RAM-CSR seeks to be at the forefront of groundbreaking research, making a lasting impact on the ever-expanding landscape of computer science.</p>
     </div>
   </div>
+</div>
+<div>
+    <div style="text-align: center;">
+        <h2 class="partners-heading" style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">Our Partners and Publishers</h2>
+    </div>   
+    <section class="partners-container">
+        <!-- Partner 1 -->
+        
+        <div>
+            <img src="https://cdn.freebiesupply.com/images/large/2x/springer-logo-transparent.png" alt="Partner 1 Logo" class="partner-logo">
+        </div>
+
+        <!-- Partner 2 -->
+        <div>
+            <img src="https://static.growkudos.com/images/rg-partners-logos/ea378917-9e85-4666-a443-06bde8a82fff.png" alt="Partner 2 Logo" class="partner-logo">
+        </div>
+
+        <!-- Partner 3 -->
+        <div>
+            <img src="https://icast.isas.or.id/2020/wp-content/uploads/Atlantis-Press-1024x501.png" alt="Partner 3 Logo" class="partner-logo">
+        </div>
+    </section>
 </div>
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>Careers</h2><br>
-  <p>website designed by Vikas Jain, CSIT-3</p>
-  <!-- vikas Jain  -->
+    <h2>"Key Highlights of RAM-CSR: Shaping the Future through Multidisciplinary Exploration and Cutting-Edge Research"
 
-  <h4> Perks of Pursuing Computer Sciennce and Information Technology</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <!-- vikas Jain  -->
 
-      <h4>Core Domain knowledge</h4>
-      <p>Strong foundation and practical knowlede of Tech-industry</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>World Class Teaching</h4>
-      <p>Excellent learning with Experienced Faculties</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <!-- vikas Jain  -->
 
-      <h4>Great Careers</h4>
-      <p>Hands-on with industrial training with good placements</p>
+
+
+    </h2><br>
+    <!-- <p>website designed by Vikas Jain, CSIT-3</p> -->
+    <!-- vikas Jain  -->
+  
+    <!-- <h4> Perks of Pursuing Computer Science and Information Technology</h4> -->
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off logo-small"></span>
+        <!-- vikas Jain  -->
+  
+        <h4>Multidisciplinary Exploration</h4>
+        <p>RAM-CSR offers a multidisciplinary platform, inviting researchers and professionals from diverse domains within computer science to explore and share advancements.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <h4>Cutting-Edge Research: </h4>
+        <p>The conference focuses on cutting-edge research topics, including Artificial Intelligence, Data Science, Cybersecurity, Emerging Technologies, Software Engineering, and Human-Computer Interaction.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <!-- vikas Jain  -->
+  
+        <h4>Global Collaboration</h4>
+        <p>RAM-CSR encourages global collaboration by providing a space for researchers worldwide to connect, exchange ideas, and collaborate on innovative projects.</p>
+      </div>
     </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <!-- vikas Jain  -->
+  
+        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <h4>Inclusive Knowledge Exchange</h4>
+        <p>With an inclusive approach, RAM-CSR facilitates knowledge exchange by welcoming submissions that span the full spectrum of computer science, ensuring a broad and comprehensive exploration.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <h4>Industry Engagement</h4>
+        <p>The conference fosters interaction between academia and industry, providing opportunities for participants to engage with the latest industry trends, challenges, and innovations.</p>
+        <!-- vikas Jain  -->
+  
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <h4 style="color:#303030;">Future-Centric Vision</h4>
+        <p>RAM-CSR maintains a future-centric vision, aiming to shape the future of computer science by showcasing research that anticipates and addresses emerging challenges and opportunities in the field.
+
+
+        </p>
+      </div>
+    </div>
+    <br><br>
+    <!-- Button to explore all scope of the conference -->
+    <a href="your-conference-scope-link" class="btn btn-primary btn-lg">Explore all scope of the conference</a>
   </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <!-- vikas Jain  -->
-
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>Future Shapers</h4>
-      <p>We produce future ready engineers to shape the future</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Get top industrial Certifications on skills</p>
-      <!-- vikas Jain  -->
-
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">Global Opportunities</h4>
-      <p>Top notch education with with real world Opportunities</p>
-    </div>
-  </div>
-</div>
+  
 
 <!-- Container (Portfolio Section) -->
 
-<div id="portfolio" class="container-fluid text-center bg-grey">
+
+<!-- <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Our Recruiters and Industrial Partners</h2><br>
   <p>Website designed by Vikas Jain, CSIT-3</p>
   <h4>What we have created</h4>
-  <!-- vikas Jain  -->
+  vikas Jain  -->
 
-  <div class="row text-center slideanim">
+  <!-- <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="https://studychacha.com/img/o/Acropolis-MBA-College-Indore-.jpg" alt="Paris" width="400" height="300">
         <p><strong>Our Top Recruiters</strong></p>
-        <!-- <p> Students get placed in </p> -->
+         <p> Students get placed in </p> -->
       </div>
-    </div>
+    </div> 
     <!-- vikas Jain  -->
 
-    <div class="col-sm-4">
+    <!-- <div class="col-sm-4">
       <div class="thumbnail">
         <img src="http://s3.amazonaws.com/bizenglish/wp-content/uploads/2020/03/13114334/Amazon-Apple-Alphabet-Facebook.jpg" alt="New York" width="400" height="300">
         <p><strong>Our Industrial Partners</strong></p>
         <p>Get Tranings / Internships and Recognised certificates from industries</p>
-      </div>
+      </div> -->
       <!-- vikas Jain  -->
 
-    </div>
+    <!-- </div>
     <div class="col-sm-4">
       <div class="thumbnail">
         <img src="https://www.edureka.co/blog/wp-content/uploads/2020/12/database-admin-top-10-certs-2021-edureka-min-1-528x288.png" alt="San Francisco" width="400" height="300">
         <p><strong>Industrial Skills with Top Certifications</strong></p>
-        <p>Get world class training and trending employable skills certifications</p>
+        <p>Get world class training and trending employable skills certifications</p> -->
         <!-- vikas Jain  -->
 
-      </div>
+      <!-- </div>
     </div>
-  </div><br>
+  </div><br> -->
   
-  <h2>What our Students and Alumnis' say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- <h2>What our Students and Alumnis' say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel"> -->
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <!-- <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li> -->
       <!-- vikas Jain  -->
 
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <!-- <div class="carousel-inner" role="listbox">
       <div class="item active">
         <h4>"Choosing Computer science and Information Technology <br> in Acropolis Institution was the best decision of my life"<br><br><span>Shivam Dubey, SDE Google</span></h4>
       </div>
-      <div class="item">
+      <div class="item"> -->
         <!-- vikas Jain  -->
 
-        <h4>"The department of CSIT has given me a big opportunity to explore myself in this world of computers"<br><span>Ojas Sharma, CTO, Softspoke Inc</span></h4>
-      </div>
+        <!-- <h4>"The department of CSIT has given me a big opportunity to explore myself in this world of computers"<br><span>Ojas Sharma, CTO, Softspoke Inc</span></h4> -->
+      <!-- </div>
       <div class="item">
         <h4>"Wanna purse Computer Science.... <br> go for CSIT in Acropolis"<br><span>Sashwat Jain, Scientist, DRDO</span></h4>
       </div>
-    </div>
+    </div> -->
     <!-- vikas Jain  -->
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
       <!-- vikas Jain  -->
 
-      <span class="sr-only">Next</span>
+      <!-- <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
+</div>  -->
 
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid">
   <div class="text-center">
-    <h2>Why to choose CSIT over traditional Streams ?</h2>
-    <p>website designed by Vikas Jain, CSIT-3</p>
+    <h2>Topics of interest include, but are not limited to, the following
+    </h2>
+    <!-- <p>website designed by Vikas Jain, CSIT-3</p> -->
     <!-- vikas Jain  -->
 
-    <h4>Choosing Computer Science and Information Technology over traditional CSE and IT gives you edge in Tech-industry. You get overall experience in software as well as hardware systems and a new exposure and vision to look at technologies. In some area CSIT graduates are preferred over general Engineering graduates because of their practical learnings and Tranings</h4>
+    <h4>RAM-CSR welcomes submissions that push the boundaries of traditional research, inviting papers that address the latest challenges and opportunities in the ever-evolving landscape of computer science, with a focus on fostering innovation, collaboration, and knowledge exchange.</h4>
   </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Skill-Set</h1>
+            <h1>Track 1:</h1>
+          <h1>Computer Science</h1>
           <!-- vikas Jain  -->
 
         </div>
@@ -466,8 +621,8 @@
 
         </div>
         <div class="panel-footer">
-          <h3>Demanding Technical Skills</h3>
-          <h4>Vikas Jain</h4>
+          <!-- <h3>Demanding Technical Skills</h3>
+          <h4>Vikas Jain</h4> -->
           <button class="btn btn-lg">More...</button>
         </div>
                   <!-- vikas Jain  -->
@@ -477,20 +632,23 @@
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Career Opportunities</h1>
+            <h1>Track 2:</h1>
+          <h1>Information Technology</h1>
                     <!-- vikas Jain  -->
 
         </div>
         <div class="panel-body">
-          <p><strong>Software Engineers</strong></p>
-          <p><strong>Business Managers</strong></p>
-          <p><strong>Computer Scientist and Reaserchers</strong></p>
-          <p><strong>Technical Consultants</strong></p>
-          <p><strong>BARC/ISRO/DRDO and other PSUs</strong></p>
+          <p><strong>IT Convergence Technology</strong></p>
+          <p><strong>E-Commerce</strong></p>
+          <p><strong>Healthcare Informatics        </strong></p>
+          <p><strong>Multimedia, Information-Convergence Security
+        </strong></p>
+          <p><strong>Digital Photometry
+        </strong></p>
         </div>
         <div class="panel-footer">
-          <h3>Careers in all industries</h3>
-          <h4>Vikas Jain</h4>
+          <!-- <h3>Careers in all industries</h3>
+          <h4>Vikas Jain</h4> -->
           <button class="btn btn-lg">More...</button>
                     <!-- vikas Jain  -->
 
@@ -500,22 +658,24 @@
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Higher Education </h1>
+            <h1>Track 3:</h1>
+          <h1>Robotics and Automation </h1>
         </div>
         <div class="panel-body">
                     <!-- vikas Jain  -->
 
-          <p><strong>CAT/GMAT/GRE etc.. for Management Studies</strong> </p>
-          <p><strong>GATE for good engineering career</strong> </p>
-          <p><strong>PhDs and Research </strong></p>
-          <p><strong>UPSC CSE and ESE</strong></p>
-          <p><strong>Banking and Finance</strong></p>
+          <p><strong>Computational Geometry</strong> </p>
+          <p><strong>Industrial Robotics        </strong> </p>
+          <p><strong>Biocybernetics        </strong></p>
+          <p><strong>Design And Control
+        </strong></p>
+          <p><strong>Humanoid Robotics        </strong></p>
         </div>
                   <!-- vikas Jain  -->
 
         <div class="panel-footer">
-          <h3>Further Education </h3>
-          <h4>Vikas Jain</h4>
+          <!-- <h3>Further Education </h3>
+          <h4>Vikas Jain</h4> -->
           <button class="btn btn-lg">More...</button>
                     <!-- vikas Jain  -->
 
@@ -525,44 +685,132 @@
   </div>
 </div>
 
+<section id="editorial-board-section">
+    <div class="text-center">
+        <h2>Our Editorial Board And Technical Committee
+        </h2>
+        <!-- <p>website designed by Vikas Jain, CSIT-3</p> -->
+        <!-- vikas Jain  -->
+    </div>
+    <div class="editor-container">
+        <!-- Editor 1 -->
+        
+        <div class="editor">
+            <img src="https://i.pinimg.com/736x/6f/82/04/6f8204d8ea9cad75baf5b1602c338542.jpg" alt="Editor 1 Photo">
+            <h3>John Doe</h3>
+            <p>Editor-in-Chief</p>
+            <p>Affiliation: University A</p>
+        </div>
+
+        <!-- Editor 2 -->
+        <div class="editor">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/5c7d7829a7ea434b351ba0b6/0x0.jpg?format=jpg&crop=1837,1839,x206,y250,safe&height=416&width=416&fit=bounds" alt="Editor 2 Photo">
+            <h3>Jane Smith</h3>
+            <p>Associate Editor</p>
+            <p>Affiliation: University B</p>
+        </div>
+
+        <!-- Editor 3 -->
+        <div class="editor">
+            <img src="https://cutewallpaper.org/21/korean-boy-picture/Amazon.com-Korean-boy-wig-handsome-men-with-short-hair-.jpg" alt="Editor 3 Photo">
+            <h3>Robert Johnson</h3>
+            <p>Editor</p>
+            <p>Affiliation: University C</p>
+        </div>
+
+        <!-- Editor 4 -->
+        <div class="editor">
+            <img src="https://image.cnbcfm.com/api/v1/image/106967046-1635430835800-gettyimages-946971500-99821012.jpeg?v=1700237775" alt="Editor 4 Photo">
+            <h3>Alice Williams</h3>
+            <p>Assistant Editor</p>
+            <p>Affiliation: University D</p>
+        </div>
+
+        <div class="editor">
+            <img src="https://image.cnbcfm.com/api/v1/image/106967046-1635430835800-gettyimages-946971500-99821012.jpeg?v=1700237775" alt="Editor 4 Photo">
+            <h3>Alice Williams</h3>
+            <p>Assistant Editor</p>
+            <p>Affiliation: University D</p>
+        </div>
+
+        <div class="editor">
+            <img src="https://image.cnbcfm.com/api/v1/image/106967046-1635430835800-gettyimages-946971500-99821012.jpeg?v=1700237775" alt="Editor 4 Photo">
+            <h3>Alice Williams</h3>
+            <p>Assistant Editor</p>
+            <p>Affiliation: University D</p>
+        </div>
+    </div>
+
+    <!-- Explore Button -->
+    <a href="explore-link.html" id="explore-button">Explore More about editorial board and Technical Committee</a>
+</section>
+
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
             <!-- vikas Jain  -->
 
-  <h2 class="text-center">CONTACT</h2>
+            <div class="contact-container">
+                <h2 class="text-center">CONTACT</h2>
+        
+                <div class="contact-info">
+                    <label for="phoneNumber" class="contact-label">Phone Number:</label>
+                    <span id="phoneNumber" class="contact-text">123-456-7890</span>
+                </div>
+        
+                <div class="contact-info">
+                    <label for="emailAddress" class="contact-label">Email Address:</label>
+                    <span id="emailAddress" class="contact-text">info@example.com</span>
+                </div>
+        
+                <div class="contact-info">
+                    <label for="address" class="contact-label">Address:</label>
+                    <span id="address" class="contact-text">123 Street, Cityville, Country</span>
+                </div>
+            </div>
+
+  <!-- <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours(This website is made by Vikas Jain, CSIT-3)</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Indore(M.P.), India</p>
       <p><span class="glyphicon glyphicon-phone"></span> 9827717502</p>
       <p><span class="glyphicon glyphicon-envelope"></span> vikaskumarjain20221@acropolis.in</p>
-    </div>
+    </div> -->
               <!-- vikas Jain  -->
 
-    <div class="col-sm-7 slideanim">
+    <!-- <div class="col-sm-7 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                    <!-- vikas Jain  -->
+                    vikas Jain 
 
-        </div>
-        <div class="col-sm-6 form-group">
+          </div> -->
+        <!-- <div class="col-sm-6 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
       <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit">Send</button> -->
                     <!-- vikas Jain  -->
 
-        </div>
+        </div> 
       </div>
-    </div>
+    </div> 
   </div>
 </div>
 
 <!-- Image of location/map -->
+<div style="text-align: center; padding: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Open_Access_logo_with_dark_text_for_contrast%2C_on_transparent_background.png" alt="Logo" style="width: 200px; height: auto; max-width: 100%;">
+    <p style="margin-top: 10px; font-size: 18px; color: #df0f0f;">Please Note all that all the articles accepted will be published as open accessed</p>
+</div>
+
+  
+  
+
+
 
 <footer class="container-fluid text-center">
             <!-- vikas Jain  -->
@@ -570,7 +818,7 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Web Page Project Made By <a href=# title="Visit w3schools">Vikas Jain, CSIT-3</a></p>
+  <p>All Rights are reserved with <a href=# title="Visit w3schools">Recent Advancements and Modernization in Computer Science and Research 2024(RAM-CSR 2024)</a></p>
 </footer>
 
 <script>
